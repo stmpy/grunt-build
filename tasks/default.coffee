@@ -1,2 +1,4 @@
 module.exports = (grunt) ->
-  console.log grunt.template.process "grunt-load-options v<%= pkg.version %>"
+  grunt.registerTask 'default', ['coffee']
+
+# console.log grunt.template.process "grunt-load-options v<%= pkg.version %>"
