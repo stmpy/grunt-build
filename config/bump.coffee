@@ -1,4 +1,4 @@
 module.exports =
   options:
-    files: ['bower.json','package.json'],
-    updateConfigs: ['bower', 'pkg']
+    files: ['package.json','bower.json'],
+    updateConfigs: ['pkg']
